@@ -23,8 +23,8 @@ function bmiCalculator(weight, height) {
 }
 
 app.post("/", (req, res) => {
-  var wt = Number(req.body.weight);
-  var ht = Number(req.body.height);
+  var wt = parseFloat(req.body.weight);
+  var ht = parseFloat(req.body.height);
   var interpretation = bmiCalculator(wt, ht);
   res.send(interpretation);
 });
