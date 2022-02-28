@@ -1,0 +1,28 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "This is a bmi calculator web app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NehaAnand28/bmi-calculator.git"
+  },
+  "keywords": [
+    "bmi"
+  ],
+  "author": "Neha Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NehaAnand28/bmi-calculator/issues"
+  },
+  "homepage": "https://github.com/NehaAnand28/bmi-calculator#readme"
+}
